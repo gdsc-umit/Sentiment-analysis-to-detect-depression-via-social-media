@@ -15,7 +15,7 @@ Tweets can be divided into 3 parts: <br>
 <ol>
   <li>contains the people whom the tweet is intended to, denoted by “@”. ex: @Hickman. </li>
   <li>contains the actual message. </li>
-  <li>contains the hashtag denoted by “#”. </li> <br>
+  <li>contains the hashtag denoted by “#”. </li> 
 Tweets are pre-processed to filter the first part and third part since they do not hold very less to zero significance in sentiment analysis. 
 <br>
  
