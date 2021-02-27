@@ -24,6 +24,7 @@ Before Cleaning: <br>
 After Cleaning: <br>
 After cleaning the data, we concatenated depressive and positive tweets, to generate a single CVS. <br>
 Now, a word cloud was generated with the most used keywords contained in depressive tweets. The words that caught our attention in these tweets are: Anxiety, depression, help, treatment, symptom, suffer, hard, issue, suffering, sleep, sad, suicide, struggle, severe, stress, feeling, emotional, food, illness. All these words in tweets are characteristic of depression. <br>
+![wordcloud](word_cloud.jpeg)
 <br>
 <b>PHASE 3 <br>
 TRAINING & TESTING </b> <br>
