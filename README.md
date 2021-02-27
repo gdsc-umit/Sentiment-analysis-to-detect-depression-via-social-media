@@ -10,7 +10,7 @@ Link for the depressive tweets dataset - https://raw.githubusercontent.com/eddie
 After reading some research papers about using different Machine Learning and artificial intelligence techniques to detect depression on Social Media, we decided to apply sentiment analysis through a powerful theorem. The model was written in python and it will tell whether a given tweet is depressive or not. <br>
 <br>
 <b> PHASE 2 <br>
-PRE-PROCESSING </b>
+PRE-PROCESSING </b> <br>
 Tweets can be divided into 3 parts: <br>
 <ol>
   <li>contains the people whom the tweet is intended to, denoted by “@”. ex: @Hickman. </li>
@@ -18,27 +18,16 @@ Tweets can be divided into 3 parts: <br>
   <li>contains the hashtag denoted by “#”. </li> </ol>
 Tweets are pre-processed to filter the first part and third part since they do not hold very less to zero significance in sentiment analysis. 
 <br>
- 
-
 Later, the remaining message part of the tweet is pre-processed further for obtaining useful keywords which accounts much significance in identifying the emotions. <br>
 As an example: <br>
 Before Cleaning: <br>
-
 After Cleaning: <br>
-
-
 After cleaning the data, we concatenated depressive and positive tweets, to generate a single CVS. <br>
 Now, a word cloud was generated with the most used keywords contained in depressive tweets. The words that caught our attention in these tweets are: Anxiety, depression, help, treatment, symptom, suffer, hard, issue, suffering, sleep, sad, suicide, struggle, severe, stress, feeling, emotional, food, illness. All these words in tweets are characteristic of depression. <br>
 <br>
-
-
-
 <b>PHASE 3 <br>
 TRAINING & TESTING </b> <br>
 In the training process, we had two tasks, <br>
-a. Creation of bag of words model <br>
-b. Creation of predictive model <br> <br>
-
 a. Creation of bag of words model <br>
 In this model, a text like tweets is represented as the bag of its words, disregarding grammar and even word order but keeping multiplicity.  <br>
 The Bag-of-words model is mainly used as a tool of feature generation. The most common type of characteristics, or features calculated from the Bag-of-words model is term frequency, namely, the number of times a term appears in the text. <br>
@@ -47,15 +36,10 @@ A total of 5 Predictive models were created, namely - Multinomial Naive Bayes, R
 Testing<br>
 In the testing phase, the 30% of data is split randomly from the dataset and is tested on the predictive model. The test data is pre-processed and classified either positive or negative. <br>
 <br>
-
-
 <b>DEPLOYMENT OF MODEL</b> <br>
 We have deployed our model on mia. <br>
 A string input parameter is required which would be the tweet that needs to be analysed. The output indicates and prints whether the input tweet is depressive or non depressive. <br>
-
-The link of the same can be found here: https://miamarketplace.com/apps/i3zM28I1GlEgh47X2mG0XhWpRxikx_YEOU6pu7KWUAYN <br>
-
-
+The link of the same can be found here: https://miamarketplace.com/apps/i3zM28I1GlEgh47X2mG0XhWpRxikx_YEOU6pu7KWUAYN <br> <br>
 <b>FUTURE SCOPE</b> <br>
 <ul>
   <li>In future, we want to improvise the work with the same dataset but using deep learning techniques. </li>
@@ -63,7 +47,7 @@ The link of the same can be found here: https://miamarketplace.com/apps/i3zM28I1
   <li>Depression can be detected in other features, such as the time when a person tweets. People with depression usually post late night tweets. There are many factors we can analyze in order to make better conclusions.</li>
   <li>An extension for the project would be to detect early symptoms of depression and make a chatbot who can chat with the person and then contact the therapist. </li>
   <li>By analyzing depression in twitter posts, this machine learning model can give an individual insight into his/her mental health far earlier than traditional approaches.</li>
-  <li>We can use more models to do analysis of tweets and more social media outlets along with emails to determine various mental health issues other than depression such as PTSD, stress and anxiety.</li></ul> <br>
+  <li>We can use more models to do analysis of tweets and more social media outlets along with emails to determine various mental health issues other than depression such as PTSD, stress and anxiety.</li></ul>
 
 <b>CONCLUSION</b> <br>
 We presented a novel approach word embedding for classification tasks to detect the depressive tweets from Twitter. Moreover, we have done a comparative analysis among all the 5 approaches. And among all these methods we found that Random Forest Classifier has the highest accuracy to detect the depressive tweets from twitter. <br>
