@@ -19,9 +19,6 @@ Tweets can be divided into 3 parts: <br>
 Tweets are pre-processed to filter the first part and third part since they do not hold very less to zero significance in sentiment analysis. 
 <br>
 Later, the remaining message part of the tweet is pre-processed further for obtaining useful keywords which accounts much significance in identifying the emotions. <br>
-As an example: <br>
-Before Cleaning: <br>
-After Cleaning: <br>
 After cleaning the data, we concatenated depressive and positive tweets, to generate a single CVS. <br>
 Now, a word cloud was generated with the most used keywords contained in depressive tweets. The words that caught our attention in these tweets are: Anxiety, depression, help, treatment, symptom, suffer, hard, issue, suffering, sleep, sad, suicide, struggle, severe, stress, feeling, emotional, food, illness. All these words in tweets are characteristic of depression. <br> <br>
 <img src = "https://github.com/Aayushi-R/Sentiment-analysis-to-detect-depression-via-social-media/blob/main/word_cloud.JPG">
@@ -38,7 +35,7 @@ Testing<br>
 In the testing phase, the 30% of data is split randomly from the dataset and is tested on the predictive model. The test data is pre-processed and classified either positive or negative. <br>
 <br>
 <img src = "https://github.com/Aayushi-R/Sentiment-analysis-to-detect-depression-via-social-media/blob/main/comparative_analysis.JPG">
-<br><br>
+<br>
 <b>DEPLOYMENT OF MODEL</b> <br>
 We have deployed our model on mia. <br>
 A string input parameter is required which would be the tweet that needs to be analysed. The output indicates and prints whether the input tweet is depressive or non depressive. <br>
