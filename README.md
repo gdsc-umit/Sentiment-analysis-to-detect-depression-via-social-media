@@ -15,7 +15,7 @@ Tweets can be divided into 3 parts: <br>
 <ol>
   <li>contains the people whom the tweet is intended to, denoted by “@”. ex: @Hickman. </li>
   <li>contains the actual message. </li>
-  <li>contains the hashtag denoted by “#”. </li> 
+  <li>contains the hashtag denoted by “#”. </li> </ol>
 Tweets are pre-processed to filter the first part and third part since they do not hold very less to zero significance in sentiment analysis. 
 <br>
  
@@ -63,7 +63,7 @@ The link of the same can be found here: https://miamarketplace.com/apps/i3zM28I1
   <li>Depression can be detected in other features, such as the time when a person tweets. People with depression usually post late night tweets. There are many factors we can analyze in order to make better conclusions.</li>
   <li>An extension for the project would be to detect early symptoms of depression and make a chatbot who can chat with the person and then contact the therapist. </li>
   <li>By analyzing depression in twitter posts, this machine learning model can give an individual insight into his/her mental health far earlier than traditional approaches.</li>
-  <li>We can use more models to do analysis of tweets and more social media outlets along with emails to determine various mental health issues other than depression such as PTSD, stress and anxiety.</li> <br>
+  <li>We can use more models to do analysis of tweets and more social media outlets along with emails to determine various mental health issues other than depression such as PTSD, stress and anxiety.</li></ul> <br>
 
 <b>CONCLUSION</b> <br>
 We presented a novel approach word embedding for classification tasks to detect the depressive tweets from Twitter. Moreover, we have done a comparative analysis among all the 5 approaches. And among all these methods we found that Random Forest Classifier has the highest accuracy to detect the depressive tweets from twitter. <br>
